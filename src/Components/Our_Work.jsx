@@ -34,10 +34,10 @@ const Our_Work = () => {
     return (
         <section className='py-16 pb-[300px]'>
             <div className='max-w-7xl mx-auto px-4 sm:px-4 lg:px-8'>
-                <h1 className='text-4xl font-extrabold text-black'>
+                <h1 className='flex justify-center text-4xl font-extrabold text-black'>
                     Our Achievements
                 </h1>
-                <p className='mt-4 text-xl '>
+                <p className='mt-4 text-xl flex justify-center'>
                     Some of the deeds we have accomplished.
                 </p>
 
