@@ -48,7 +48,7 @@ const Image_Slider = () => {
       
     <div className='flex items-center flex-col justify-center h-screen'>
 
-      <h1 className=' text-3xl'>Our Gallery</h1>
+      <h1 className=' text-4xl font-extrabold'>Our Gallery</h1>
       <br />
       {images.map((image, index)=>(
         <motion.img
