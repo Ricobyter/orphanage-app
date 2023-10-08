@@ -59,11 +59,7 @@ const Our_Work = () => {
             </div>
 
         </div>
-        <div className='fixed bottom-16 '>
-            <p className='text-2xl font-semibold text-white'>
-                This is the description.
-            </p>
-        </div>
+    
       
     </div>
   )
