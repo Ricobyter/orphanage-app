@@ -6,8 +6,9 @@ import img4 from './Assets/5.jpg'
 
 const Our_Work = () => {
   return (
+    <div>
+        <h1 className='text-4xl font-semibold text-center'> Our Work</h1>
     <div className='flex min-h-screen items-center justify-center '>
-        
         <div className='grid grid-cols-1 gap-20 md:grid-cols-2 lg:grid-cols-4'>
         <div className='group relative items-center justify-center overflow-hidden cursor-pointer hover:shadow-xl hover:shadow-black/30 transition-shadow'>
                 <div className='h-96 w-72'>
@@ -61,7 +62,7 @@ const Our_Work = () => {
         </div>
     
       
-    </div>
+    </div></div>
   )
 }
 

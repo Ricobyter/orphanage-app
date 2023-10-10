@@ -8,7 +8,7 @@ const Sponsors = () => {
   return (
     <div className='p-7 mt-10'>
         <h1 className='text-center text-5xl font-semibold mb-7'>Our Sponsors who make us great</h1>
-        <div className='flex w-full justify-between'>
+        <div className='flex flex-col lg:flex-row w-full justify-between'>
             <img src={img1} alt="" />
             <img src={img2} alt="" />
             <img src={img3} alt="" />
