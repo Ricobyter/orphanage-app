@@ -1,5 +1,5 @@
 import './App.css';
-import About_Us from './Components/About_Us';
+import Info from './Components/Info';
 import Contact_Us from './Components/Contact_Us';
 import Entry_image from './Components/Entry_image';
 import Footer from './Components/Footer';
@@ -13,7 +13,7 @@ function App() {
     <div>
       <Navbar/>
       <Entry_image/>
-      <About_Us/>
+      <Info/>
       <Our_Work/>
       <Image_Slider/>
       <Sponsors/>

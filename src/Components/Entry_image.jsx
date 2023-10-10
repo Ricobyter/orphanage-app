@@ -7,7 +7,7 @@ const Entry_image = () => {
     style={{
         backgroundImage: `url(${entryImg})`}}>
           <h1 className='mx-auto text-white text-5xl opacity-100 font-extrabold'>Don't let the Children be alone</h1>
-          <button className='bg-black text-white p-4 mt-20 hover:bg-white hover:text-black '>Donate Now</button>    
+          <div className='mx-auto'><button className='bg-black text-white p-4 mt-20 hover:bg-white hover:text-black font-semibold rounded-lg'>Donate Now</button></div>    
     </div>
   )
 }
