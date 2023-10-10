@@ -9,7 +9,7 @@ const Our_Work = () => {
     <div className='flex min-h-screen items-center justify-center '>
         
         <div className='grid grid-cols-1 gap-20 md:grid-cols-2 lg:grid-cols-4'>
-            <div className='group relative items-center justify-center overflow-hidden cursor-pointer hover:shadow-xl hover:shadow-black/30 transition-shadow'>
+        <div className='group relative items-center justify-center overflow-hidden cursor-pointer hover:shadow-xl hover:shadow-black/30 transition-shadow'>
                 <div className='h-96 w-72'>
                     <img src={img1} alt="" className='h-full w-full object-cover group-hover:rotate-3 group-hover:scale-125 transition-transform duration-500'/>
                 </div>
